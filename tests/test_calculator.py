@@ -10,6 +10,9 @@ class TestCalculator(unittest.TestCase):
     def test_multiply(self):
         self.assertEqual(multiply(4, 5), 20)
 
+    def test_multiply_by_zero(self):
+        self.assertEqual(multiply(7, 0), 0)
+
 
 if __name__ == "__main__":
     unittest.main()
