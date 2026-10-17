@@ -9,3 +9,5 @@ def add(a, b):
 def multiply(a, b):
     """Возвращает произведение двух чисел."""
     return a * b
+
+x=1
